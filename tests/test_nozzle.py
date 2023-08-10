@@ -9,6 +9,7 @@ efficiency = 0.97
 thrust = 7500
 ambient_pressure = 1e5
 
+
 @pytest.fixture
 def nozzle():
     combustion_chamber = CombustionChamberRpa()

@@ -1,7 +1,5 @@
-import cantera as ct
 import numpy as np
 from injector import *
-from scipy.optimize import fsolve
 import matplotlib.pyplot as plt
 
 

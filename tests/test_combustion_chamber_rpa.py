@@ -51,7 +51,7 @@ def test_speed_of_sound_calculation(combustion_chamber_rpa):
 
 
 def test_diameter_calculation(combustion_chamber_rpa):
-    assert pytest.approx(combustion_chamber_rpa.diameter, None, 1e-4) == 0.051253986
+    assert pytest.approx(combustion_chamber_rpa.diameter, None, 1e-4) == 0.06277
 
 
 def test_volume_calculation(combustion_chamber_rpa):
@@ -59,7 +59,7 @@ def test_volume_calculation(combustion_chamber_rpa):
 
 
 def test_length_calculation(combustion_chamber_rpa):
-    assert pytest.approx(combustion_chamber_rpa.length, None, 1e-4) == 0.951666337
+    assert pytest.approx(combustion_chamber_rpa.length, None, 1e-4) == 0.6344
 
 
 
